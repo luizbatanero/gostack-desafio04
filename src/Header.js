@@ -10,10 +10,10 @@ const Header = () => {
           <img src={facebook} alt="Facebook" />
         </div>
         <nav>
-          <span>
-            Meu perfil
+          <a href="#">
+            <span>Meu perfil</span>
             <i className="fas fa-user-circle"></i>
-          </span>
+          </a>
         </nav>
       </div>
     </header>

@@ -9,15 +9,13 @@
 body {
   background: #E9EBEE;
   font-family: Lato, Helvetica, Arial, sans-serif;
-
 }
 
 header {
   background: #4267b2;
   border-bottom: 1px solid #29487d;
   color: #fff;
-  padding: 12px 0;
-  margin-bottom: 20px;
+  padding: 10px 0;
 }
 
 header .container {
@@ -32,13 +30,47 @@ header nav {
   margin-left: auto;
 }
 
+header nav a {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 5px 10px;
+  border-radius: 3px;
+  transition: background .3s;
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav a:hover {
+  background: rgba(0, 0, 0, .15);
+}
+
 header nav span {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: .5px;
+  text-shadow: 0 1px rgba(0, 0, 0, .3);
 }
 
 header nav i {
   margin-left: 8px;
-  font-size: 1.2em;
+  font-size: 2em;
+  text-shadow: none;
+  color: rgba(0, 0, 0, .45);
 }
+
+.postlist {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.post {
+  background: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 3px;
+  /* box-shadow: 0 1px 5px rgba(0, 0, 0, .1); */
+  padding: 12px;
+}
+
+.post + .post { margin-top: 15px; }
+
