@@ -1,2 +1,3 @@
 node_modules
-public/build.js
+public
+!public/index.html
