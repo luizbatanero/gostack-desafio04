@@ -4,7 +4,7 @@ import Comment from './Comment';
 
 const CommentList = ({ comments }) => {
   return (
-    <div className="post-comments">
+    <div className="commentlist">
       <p>
         {`${comments.length} comentário${comments.length > 1 ? 's' : ''}`}
       </p>
